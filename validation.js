@@ -16,6 +16,6 @@ function redirect() {
     },2000);
   } else {
 
-    alert("ERROR");
+    alert("Please fill the form to access");
   }
 }
