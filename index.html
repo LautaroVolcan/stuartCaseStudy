@@ -9,29 +9,32 @@
     <div id="container">
       <div id="content-container">
         <form id="form" autocomplete="off">
-          <h1>Let us know who you are and join our FAMILY</h1>
+          <h1>Be part of our WORLD</h1>
+         <div class="input-original">
           <input
-            class="input-original"
+            
             id="contactName"
             spellcheck="false"
             placeholder="What's your Name?"
             type="text"
             name="text"
-            required
+            
           />
-
+          <span id="errorName"></span>
+         </div>
+<div class="input-original">
           <input
-            class="input-original"
             id="email"
             spellcheck="false"
             placeholder="What's your Email?"
             type="email"
             name="text"
-            required
+            
           />
-
+          <span id="errorMail"></span>
+         </div>
           <p>
-            Please let us know your Name and Email, so we can share our content with you and share as a family.
+            Please let us know your Name and Email, so we can share our content with you.
           </p>
         </form>
         <button onclick="redirect()" id="joinButton">Click to Join!</button>
